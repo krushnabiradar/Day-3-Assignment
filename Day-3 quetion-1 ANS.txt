@@ -1,0 +1,80 @@
+Q1....For the given JSON iterate over all for loops (for, for in, for of, forEach)?
+
+Ans...
+
+1)   For Loop
+
+var cities=new Array();
+cities[0]="Delhi";
+cities[1]="Mumbai";
+cities[2]="Bangalore";
+cities[3]="Chennai";
+console.log(cities);
+
+for(var i=0;i<cities.length;i++){
+     console.log(cities[i]);
+ }
+
+
+2) for in loop:
+
+
+var cities=new Array();
+cities[0]="Delhi";
+cities[1]="Mumbai";
+cities[2]="Bangalore";
+cities[3]="Chennai";
+console.log(cities);
+
+for(var index in cities){
+    console.log(cities[index]);
+}
+
+3) for of loop:
+
+
+var cities=new Array();
+cities[0]="Delhi";
+cities[1]="Mumbai";
+cities[2]="Bangalore";
+cities[3]="Chennai";
+console.log(cities);
+
+for(var city of cities){
+    console.log(city);
+}
+
+
+4) for each loop:
+
+var cities=new Array();
+cities[0]="Delhi";
+cities[1]="Mumbai";
+cities[2]="Bangalore";
+cities[3]="Chennai";
+console.log(cities);
+
+cities.forEach(((city)=>{
+     console.log(city);
+ }))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
