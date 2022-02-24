@@ -1,0 +1,113 @@
+Q.2...Create your own resume data in JSON format?
+Ans....
+
+
+let myResume={
+  "basics": {
+    "name": "Krushna Biradar",
+    "email": "krushnabiradar1998@gamil.com",
+    "phone": 9637927510,
+    "degree": "B.E(Electrical)",
+    "location": {
+      "address": "At.Wadhawana(kh), post.Wadhawana(bk)",
+      "postalCode": 413518,
+      "city": "Latur",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "profiles": [
+      {
+        "website": "https://www.linkedin.com/in/krushna-biradar-2b6259176/",
+        "github":"https://github.com/krushnabiradar"
+      }
+    ]
+  },
+   "education": [
+    {
+      "institution": "Sinhgad Institute of Technology, Lonavala",
+      "department": "Electrical",
+      "studyType": "fulltime",
+      "batch start year": 2016,
+      "batch end year": 2021,
+      "cgpa": 7.36,
+    },
+    {
+      "12th": "Maharastra State Board",
+      "department": "Science",
+      "studyType": "fulltime",
+      "batch start year": 2015,
+      "batch end year": 2016,
+      "Percentage": 57.69,
+    },
+    {
+      "10th": "Maharastra State Board",
+      "department": "Science",
+      "studyType": "fulltime",
+      "batch start year": 2013,
+      "batch end year": 2014,
+      "Percentage": 77.60,
+    }
+  ],
+  "Projects":[
+    {
+      "name":"Conditions Monitoring of distribution transformer",
+      "duration":"6 Months",
+      "start":"September",
+      "end":"february",
+    },
+    {
+      "name":"IOT BASED AUTOMATIC POWER FACTOR CORRECTION SYSTEM (2019)",
+      "duration":"2 Months",
+      "start":"march",
+      "end":"may",
+    }
+
+  ],
+  "EXTRA-CURRICULAR ACTIVITIES":[
+    {
+      "type": "College Event",
+      "name of event": "Sinhgad karandak",
+      "Role": "Core committee Member",
+      "year": 2020,
+      "Task":"Management of the event at institution lelvel",
+    },
+    {
+      "type": "College Event",
+      "name of event": "Sinhgad karandak",
+      "Role": "Head of department decoration team",
+      "year": 2019,
+      "Task":"Department decoration for event",
+    }
+  ],
+  "skills": [
+    {
+      "name": "python,HTML,CSS,javascript",
+      "level": "beginer",
+    }
+  ],
+  "Awards": [
+    {
+      "event": "Design of Electrical circuits",
+      "prize": "First Prize",
+    },
+    {
+      "event": "Innovation in Electrical",
+      "prize": "First Prize",
+    },
+    {
+      "event": "Slow Cycling",
+      "prize": "First Prize",
+    }
+  ],
+  "languages": [
+    {
+      "language": "Hindi,Enlish,Marathi",
+    }
+  ],
+  "interests": [
+    {
+      "name": "Watching Anime,Playing Games,",
+    }
+  ]
+}
+console.log(myResume);
